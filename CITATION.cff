@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it. This is an INDEPENDENT reconstruction
+  of a hybrid-rocket design model built from its governing equations; it does not
+  reproduce any specific published result and is not the original authors' code.
+title: "Hybrid Rocket Design Model — Independent Reconstruction"
+version: 1.0.0
+date-released: 2026-07-18
+license: MIT
+type: software
+authors:
+  - family-names: Khan
+    given-names: "Muhammed Anaz"
+    email: mkhan@ub.edu.sa
+    orcid: "https://orcid.org/0000-0002-8837-9865"
+    affiliation: >-
+      Department of Mechanical Engineering, College of Engineering,
+      University of Bisha, Bisha 61922, P.O. Box 551, Saudi Arabia
+contact:
+  - family-names: Khan
+    given-names: "Muhammed Anaz"
+    email: mkhan@ub.edu.sa
+    affiliation: >-
+      Department of Mechanical Engineering, College of Engineering,
+      University of Bisha, Bisha 61922, P.O. Box 551, Saudi Arabia
+keywords:
+  - hybrid rocket
+  - paraffin
+  - many-objective optimization
+  - NSGA-II
+  - differential evolution
+  - memetic algorithm
+  - reproducibility
+abstract: >-
+  A self-contained re-implementation of a thermodynamically constrained transient
+  many-objective design model for a 300 N-class paraffin/LOX hybrid rocket, with
+  optimization (NSGA-II, NSGA-III, SPEA2, differential-evolution and memetic
+  variants including a Scheduled DE-Memetic hybrid), quality indicators (HV, IGD+),
+  non-parametric statistics, RK4 verification, and a Monte-Carlo per-constraint
+  uncertainty stress test. The code reproduces its own results deterministically.

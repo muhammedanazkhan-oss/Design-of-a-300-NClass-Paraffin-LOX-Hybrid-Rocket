@@ -1,0 +1,40 @@
+{
+  "thermochem_calibration": {
+    "K_c": 0.9852034909800951,
+    "cstar_at_anchor": 1711.6,
+    "cstar_anchor_target": 1711.6,
+    "peak_cstar": 1721.2776646602192,
+    "peak_cstar_of": 2.504385964912281,
+    "tc_at_anchor": 3178.846271281319,
+    "tc_anchor_target": 3095.2
+  },
+  "rk4_order": [
+    {
+      "dt": 2.0,
+      "order": 4.0894346189941,
+      "rel_err_pct": 0.000771530275006824
+    },
+    {
+      "dt": 1.0,
+      "order": 4.0950898715906074,
+      "rel_err_pct": 4.532214823609853e-05
+    },
+    {
+      "dt": 0.5,
+      "order": 4.144136674163046,
+      "rel_err_pct": 2.6519516427663936e-06
+    }
+  ],
+  "pressure_residuals": {
+    "iterations": 7,
+    "iter_change": 1.5350490464871736e-12,
+    "eqn_residual": 1.7261746907938716e-14
+  },
+  "quadrature": {
+    "F_rect": 297.13866178322115,
+    "F_trap": 297.0936758333427,
+    "F_simpson": 297.09311132824064,
+    "rect_vs_trap_pct": 0.0151420085776971,
+    "Isp_integrated": 258.43399157433504
+  }
+}

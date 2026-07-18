@@ -1,0 +1,8 @@
+# Environment used to generate the shipped results/ files
+python: 3.10.12
+platform: Linux-6.8.0-124-generic-x86_64-with-glibc2.35
+numpy: 2.2.6
+scipy: 1.15.3
+pandas: 2.3.3
+pymoo: 0.6.2
+yaml: 6.0.3
